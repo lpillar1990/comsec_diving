@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import config from '../../config';
 
 export default function Nav({ onMenuToggle = () => {} }) {
   return (
@@ -22,10 +23,16 @@ export default function Nav({ onMenuToggle = () => {} }) {
                 <Link to="/">Home</Link>
               </li>
               <li>
-                <Link to="/Generic">Generic Page</Link>
+                <Link to="/AboutUs">About Us</Link>
               </li>
               <li>
-                <Link to="/Elements">Elements</Link>
+                <Link to="/Services">Services</Link>
+              </li>
+              <li>
+                <Link to="/HealthSafety">Health & Safety</Link>
+              </li>
+              <li>
+                <Link to="/Contact">Contact Us</Link>
               </li>
             </ul>
             <a

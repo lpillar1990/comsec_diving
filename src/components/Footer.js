@@ -8,18 +8,17 @@ export default function Footer() {
           const { style, icon, name, url } = social;
           return (
             <li key={url}>
-              <a href={url} className={`icon ${style} ${icon}`}>
+              <a
+                href={url}
+                className={`icon ${style} ${icon}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <span className="label">{name}</span>
               </a>
             </li>
           );
         })}
-      </ul>
-      <ul className="copyright">
-        <li>&copy; Spectral</li>
-        <li>
-          Design: <a href="http://html5up.net">HTML5 UP</a>
-        </li>
       </ul>
     </footer>
   );

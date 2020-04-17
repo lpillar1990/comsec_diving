@@ -4,9 +4,9 @@ import Layout from '../components/Layout';
 
 import Scroll from '../components/Scroll';
 
-import pic1 from '../assets/images/pic01.jpg';
-import pic2 from '../assets/images/pic02.jpg';
-import pic3 from '../assets/images/pic03.jpg';
+import pic1 from '../assets/images/comsec1.jpg';
+import pic2 from '../assets/images/comsec2.jpg';
+import pic3 from '../assets/images/comsec4.jpg';
 import config from '../../config';
 const IndexPage = () => (
   <Layout>
@@ -17,17 +17,16 @@ const IndexPage = () => (
         <ul className="actions special">
           <li>
             <Scroll type="id" element="one">
-              <a href="/#" className="button primary">
+              {/* <a href="/#" className="button primary">
                 Explore
-              </a>
+              </a> */}
             </Scroll>
           </li>
         </ul>
       </div>
+
       <Scroll type="id" element="one">
-        <a href="#one" className="more">
-          Learn More
-        </a>
+        <a href="#one" className="more"></a>
       </Scroll>
     </section>
 
@@ -35,19 +34,24 @@ const IndexPage = () => (
       <div className="inner">
         <header className="major">
           <h2>
-            Arcu aliquet vel lobortis ata nisl
+            ComSecDiving... not just another
             <br />
-            eget augue amet aliquet nisl cep donec
+            diving & marine contractor.
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
-            <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
+            At the start of CSD being established there was one driving force,
+            Health & Safety. Whether we like it or not diving has risks.
+            However, these risks can be controlled, mitigated or reduced to a
+            safe level. All CSD staff take ownership of Health & Safety at every
+            level. It has to be that way, its the way we work. We are likeminded
+            in our determination to make our job safe for ourselves and our
+            clients. We believe gaining and keeping the trust of our clients,
+            indeed any persons in contact with CSD is of paramount importance.
+            If you feel the same way, then you might like to get in touch with
+            us.
           </p>
         </header>
-        <ul className="icons major">
+        {/* <ul className="icons major">
           <li>
             <span className="icon fa-gem major style1">
               <span className="label">Lorem</span>
@@ -63,7 +67,7 @@ const IndexPage = () => (
               <span className="label">Dolor</span>
             </span>
           </li>
-        </ul>
+        </ul> */}
       </div>
     </section>
 
@@ -121,81 +125,49 @@ const IndexPage = () => (
     <section id="three" className="wrapper style3 special">
       <div className="inner">
         <header className="major">
-          <h2>Accumsan mus tortor nunc aliquet</h2>
+          <h2>Mission Statement</h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
-            <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
+            ComSecDiving's mission is to provide our clients with a
+            professional, safe and efficient workforce. Our team have the
+            knowledge and experience to meet your requirements. We will continue
+            to maintain our outstanding safety record while meeting and
+            surpassing your expectations. Our friendly and efficient team can
+            adapt to help solve potential problems before they arise and
+            therefore keep the job on target and within budget.
           </p>
         </header>
         <ul className="features">
-          <li className="icon fa-paper-plane">
-            <h3>Arcu accumsan</h3>
+          <li className="icon solid fa-ship">
+            <h3>Values</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              Act with uncompromising honesty and integrity in everything we do.
             </p>
           </li>
-          <li className="icon solid fa-laptop">
-            <h3>Ac Augue Eget</h3>
+          <li className="icon solid fa-theater-masks">
+            <h3>Accountability</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              We are accountable – individually and in teams – for our
+              behaviours, actions and results.
             </p>
           </li>
-          <li className="icon solid fa-code">
-            <h3>Mus Scelerisque</h3>
+          <li className="icon solid fa-thumbs-up">
+            <h3>Success</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              We view our success as dependent on our customers' success, both
+              now and in the future. Satisfied customers are essential. We will
+              achieve total customer satisfaction by understanding what the
+              customer wants and delivering it flawlessly. We do what we say we
+              will do.
             </p>
           </li>
-          <li className="icon solid fa-headphones-alt">
-            <h3>Mauris Imperdiet</h3>
+          <li className="icon solid fa-users">
+            <h3>Teamwork</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              Work together effectively to achieve our goals, while encouraging
+              individual contribution and responsibility. We will continually
+              learn, share ideas and knowledge. We will encourage cooperative
+              efforts at every level and across all activities in our company.
             </p>
-          </li>
-          <li className="icon fa-heart">
-            <h3>Aenean Primis</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon fa-flag">
-            <h3>Tortor Ut</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="cta" className="wrapper style4">
-      <div className="inner">
-        <header>
-          <h2>Arcue ut vel commodo</h2>
-          <p>
-            Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet
-            eleifend fringilla.
-          </p>
-        </header>
-        <ul className="actions stacked">
-          <li>
-            <a href="/#" className="button fit primary">
-              Activate
-            </a>
-          </li>
-          <li>
-            <a href="/#" className="button fit">
-              Learn More
-            </a>
           </li>
         </ul>
       </div>
