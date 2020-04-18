@@ -1,13 +1,12 @@
 import React from 'react';
 import Layout from '../components/Layout';
-import comseclogo from '../assets/images/comsec-logo.jpg';
 
 const IndexPage = () => (
   <Layout fullMenu>
     <article id="main">
       <header>
         <h2>Contact CSD</h2>
-        <p>Parkgate, Ballyclare, Northern Ireland</p>
+        <p>Ballyclare, Northern Ireland</p>
         <p>Tel: 07738589663</p>
         <p>Email: Rab@comsecdiving.com</p>
       </header>

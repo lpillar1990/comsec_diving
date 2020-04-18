@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import config from '../../config';
 
 export default function Nav({ onMenuToggle = () => {} }) {
   return (

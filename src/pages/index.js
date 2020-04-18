@@ -1,12 +1,8 @@
 import React from 'react';
-
 import Layout from '../components/Layout';
-
 import Scroll from '../components/Scroll';
-
 import pic1 from '../assets/images/comsec1.jpg';
 import pic2 from '../assets/images/comsec2.jpg';
-import pic3 from '../assets/images/comsec4.jpg';
 import config from '../../config';
 const IndexPage = () => (
   <Layout>
@@ -16,11 +12,7 @@ const IndexPage = () => (
         <p>{config.subHeading}</p>
         <ul className="actions special">
           <li>
-            <Scroll type="id" element="one">
-              {/* <a href="/#" className="button primary">
-                Explore
-              </a> */}
-            </Scroll>
+            <Scroll type="id" element="one"></Scroll>
           </li>
         </ul>
       </div>
@@ -33,11 +25,7 @@ const IndexPage = () => (
     <section id="one" className="wrapper style1 special">
       <div className="inner">
         <header className="major">
-          <h2>
-            ComSecDiving... not just another
-            <br />
-            diving & marine contractor.
-          </h2>
+          <h2>ComSecDiving... not just another diving & marine contractor.</h2>
           <p>
             At the start of CSD being established there was one driving force,
             Health & Safety. Whether we like it or not diving has risks.
@@ -51,73 +39,31 @@ const IndexPage = () => (
             us.
           </p>
         </header>
-        {/* <ul className="icons major">
-          <li>
-            <span className="icon fa-gem major style1">
-              <span className="label">Lorem</span>
-            </span>
-          </li>
-          <li>
-            <span className="icon fa-heart major style2">
-              <span className="label">Ipsum</span>
-            </span>
-          </li>
-          <li>
-            <span className="icon solid fa-code major style3">
-              <span className="label">Dolor</span>
-            </span>
-          </li>
-        </ul> */}
       </div>
     </section>
 
     <section id="two" className="wrapper alt style2">
       <section className="spotlight">
         <div className="image">
-          <img src={pic1} alt="" />
+          <img src={pic1} alt="diver dressing in" />
         </div>
         <div className="content">
-          <h2>
-            Magna primis lobortis
-            <br />
-            sed ullamcorper
-          </h2>
-          <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
-          </p>
+          <h4>
+            At CSD we can provide quick deployment surface supply diving systems
+            mobile with a 24hr callout.
+          </h4>
         </div>
       </section>
       <section className="spotlight">
         <div className="image">
-          <img src={pic2} alt="" />
+          <img src={pic2} alt="barge positioning" />
         </div>
         <div className="content">
-          <h2>
-            Tortor dolore feugiat
-            <br />
-            elementum magna
-          </h2>
-          <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
-          </p>
-        </div>
-      </section>
-      <section className="spotlight">
-        <div className="image">
-          <img src={pic3} alt="" />
-        </div>
-        <div className="content">
-          <h2>
-            Augue eleifend aliquet
-            <br />
-            sed condimentum
-          </h2>
-          <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
-          </p>
+          <h4>
+            We take pride in our work ethic, where the customer comes first. We
+            aim to complete every project to the customer’s complete
+            satisfaction.
+          </h4>
         </div>
       </section>
     </section>

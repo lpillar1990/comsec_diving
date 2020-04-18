@@ -1,8 +1,8 @@
 import React from 'react';
 import Layout from '../components/Layout';
 import comsec5 from '../assets/images/comsec5.jpg';
-import barge from '../assets/images/barge.jpg';
-import liftbag from '../assets/images/liftbag.jpeg';
+import tugboat from '../assets/images/barge.jpg';
+import minesto from '../assets/images/minesto.jpg';
 const IndexPage = () => (
   <Layout fullMenu>
     <article id="main">
@@ -16,7 +16,7 @@ const IndexPage = () => (
           <p>
             {' '}
             <span className="image left">
-              <img src={comsec5} alt="commercial burning" />
+              <img src={comsec5} alt="commercial diving burning" />
             </span>
             ComSec diving has a solid understanding of the marine environment
             and uses the latest equipment and technology available to carry out
@@ -37,10 +37,11 @@ const IndexPage = () => (
             <li>Cathodic Protection</li>
             <li>Scour and Asset Protection</li>
             <li>Underwater Cutting and Welding</li>
-            <span className="image right">
-              <img src={barge} alt="" />
-            </span>
+
             <li>Marine Salvage Operations</li>
+            <span className="image right">
+              <img src={tugboat} alt="Belfast tugboat" />
+            </span>
             <li>Dock and Quay Repairs</li>
             <li>Dredging / Airlifting / Trenching</li>
             <li>Sub-sea Construction and Repair</li>
@@ -58,8 +59,8 @@ const IndexPage = () => (
           </ul>
 
           <hr />
-          <span className="image left">
-            <img src={liftbag} alt="commercial burning" />
+          <span className="image right">
+            <img src={minesto} alt="Minesto seakite" />
           </span>
           <p>
             ComSecDiving have extensive experience of Diving Surface Supply on
@@ -68,13 +69,12 @@ const IndexPage = () => (
             Low Pressure weather systems at site and the use of Historical and
             Real Time Acoustic Doppler Current Profiler (ADCP) readings.
           </p>
-          <br />
-          <br />
+
           <p>
-            Complete hull surveys, including still and video color photography
+            Complete hull surveys, including still and video colour photography
             documentation. Complete running gear inspection, including struts,
             fairwaters, rope guards, propellers, rudders, sonar domes, bilge
-            keel, stabilizing fins, complete hull, bow and stern thrusters,
+            keel, stabilising fins, complete hull, bow and stern thrusters,
             Azimuth thrusters, Azipod thrusters NDT inspections of hull shell
             plating and other underwater appendages.
           </p>

@@ -1,7 +1,5 @@
 import React from 'react';
 import Layout from '../components/Layout';
-import comsec7 from '../assets/images/comsec7.jpg';
-import comsec8 from '../assets/images/comsec8.jpeg';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -13,16 +11,14 @@ const IndexPage = () => (
       <section className="wrapper style5">
         <div className="inner">
           <h2>About Us</h2>
-          <span className="image left">
-            <img src={comsec8} alt="comsec barge loading" />
-          </span>
+
           <p>
-            Comsec Diving ( CSD ) was founded in 2014 and is a privately owned
-            Limited Company, managed by Owner Rab catherwood (a highly
+            ComsecDiving ( CSD ) was founded in 2014 and is a privately owned
+            Limited Company, managed by Owner Rab Catherwood (a highly
             experienced commercial diver & Commercial Skipper).
           </p>
           <p>
-            Comsec diving have a comprehensive range of Marine & Diving
+            ComsecDiving have a comprehensive range of Marine & Diving
             equipment. Over the years we have worked on an array of projects
             from inshore construction to renewable energy campaigns. We are
             registered with the H.S.E as a diving contractor. All diving

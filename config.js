@@ -1,12 +1,12 @@
 module.exports = {
-  siteTitle: 'ComSec Diving Commercial Diving', // <title>
+  siteTitle: 'ComSec Diving | Commercial Diving', // <title>
   manifestName: 'Comsec Diving',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/img/website-icon.png',
+  manifestIcon: 'src/assets/images/kirby-hat.jpg',
   pathPrefix: `/gatsby-starter-spectral/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Comsec Diving',
   subHeading: 'We are only as good as the promises we keep ',
@@ -30,11 +30,5 @@ module.exports = {
       name: 'Twitter',
       url: 'https://twitter.com/ComSecDiving',
     },
-    // {
-    //   style: 'solid',
-    //   icon: 'fa-envelope',
-    //   name: 'Email',
-    //   url: 'mailto:Rab@comsecdiving.com',
-    // },
   ],
 };

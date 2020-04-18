@@ -14,24 +14,26 @@ const IndexPage = () => (
       </header>
       <section className="wrapper style5">
         <div className="inner">
-          <span className="image center">
-            <a
-              href="https://www.hsa.ie/eng/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={hsa} alt="HSA" width="272" height="130" />
-            </a>
-          </span>
-          <span className="image right">
-            <a
-              href="https://www.hseni.gov.uk/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={hseni} alt="HSE NI" width="272" height="130" />
-            </a>
-          </span>
+          <center>
+            <span className="image center">
+              <a
+                href="https://www.hsa.ie/eng/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={hsa} alt="HSA" width="272" height="130" />
+              </a>
+            </span>
+            <span className="image center">
+              <a
+                href="https://www.hseni.gov.uk/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={hseni} alt="HSE NI" width="272" height="130" />
+              </a>
+            </span>
+          </center>
           <br />
           <br />
           <p>
