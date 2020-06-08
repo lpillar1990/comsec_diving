@@ -1831,8 +1831,8 @@ button,
 
   @include breakpoint('<=small') {
     @include padding(7em, 3em);
-    height: auto;
-    min-height: 0;
+    // height: auto;
+    // min-height: 0;
 
     h2 {
       font-size: 1.25em;
@@ -1843,7 +1843,7 @@ button,
     }
 
     .more {
-      display: none;
+      display: block;
     }
   }
 }
