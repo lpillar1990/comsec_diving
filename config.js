@@ -30,5 +30,11 @@ module.exports = {
       name: 'Twitter',
       url: 'https://twitter.com/ComSecDiving',
     },
+    {
+      style: 'brands',
+      icon: 'fa-whatsapp',
+      name: 'Whatsapp',
+      url: 'https://wa.me/447738589663',
+    },
   ],
 };

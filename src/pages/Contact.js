@@ -7,8 +7,10 @@ const IndexPage = () => (
       <header>
         <h2>Contact CSD</h2>
         <p>Ballyclare, Northern Ireland</p>
-        <p>Tel: 07738589663</p>
-        <p>Email: Rab@comsecdiving.com</p>
+        <a href="tel:+447738589663">
+          <p>Tel: +447738589663</p>
+        </a>
+        <p>Email: Rab@comsecdiving.com</p>{' '}
       </header>
       <section className="wrapper style5">
         <div className="inner">

@@ -20,7 +20,7 @@ export default function Footer() {
           );
         })}
       </ul>
-      <ul>Built by Leo Pillar</ul>
+      <p>Built by Leo Pillar</p>
     </footer>
   );
 }
