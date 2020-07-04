@@ -1,5 +1,6 @@
 import React from 'react';
 import config from '../../config';
+
 export default function Footer() {
   return (
     <footer id="footer">
@@ -20,7 +21,11 @@ export default function Footer() {
           );
         })}
       </ul>
-      <p>Built by Leo Pillar</p>
+      <a href="https://www.leopillar.com/" target="__blank">
+        <p>
+          Built by <u>Leo Pillar</u>
+        </p>
+      </a>
     </footer>
   );
 }
