@@ -63,12 +63,7 @@ const IndexPage = () => (
               <div className="col-12">
                 <ul className="actions">
                   <li>
-                    <input
-                      type="submit"
-                      value="Send"
-                      className="primary"
-                      href="lpillar1990@googlemail.com"
-                    />
+                    <input type="submit" value="Send" className="primary" />
                   </li>
                   <li>
                     <input className="primary" type="reset" value="Reset" />
