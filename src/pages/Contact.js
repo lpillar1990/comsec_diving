@@ -34,7 +34,6 @@ const IndexPage = () => (
                 <input
                   type="email"
                   name="email"
-                  id="email"
                   defaultValue=""
                   placeholder="Email*"
                 />
@@ -43,7 +42,6 @@ const IndexPage = () => (
                 <input
                   type="text"
                   name="phone"
-                  id="phone"
                   defaultValue=""
                   placeholder="Phone"
                 />
@@ -52,7 +50,6 @@ const IndexPage = () => (
                 <input
                   type="text"
                   name="subject"
-                  id="subject"
                   defaultValue=""
                   placeholder="Subject"
                 />
@@ -60,7 +57,6 @@ const IndexPage = () => (
               <div className="col-12">
                 <textarea
                   name="demo-message"
-                  id="demo-message"
                   placeholder="Enter your message"
                   rows="6"
                 ></textarea>
