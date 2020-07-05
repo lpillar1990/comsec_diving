@@ -25,7 +25,6 @@ const IndexPage = () => (
                 <input
                   type="text"
                   name="name"
-                  id="name"
                   defaultValue=""
                   placeholder="Name*"
                 />
