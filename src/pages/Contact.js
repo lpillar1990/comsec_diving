@@ -15,32 +15,33 @@ const IndexPage = () => (
       <section className="wrapper style5">
         <div className="inner">
           <form name="contact" method="POST" data-netlify="true">
-            <div className="row gtr-uniform">
-              <div className="col-6 col-12-xsmall">
-                <input
-                  type="text"
-                  className="form-control"
-                  placeholder="Name*"
-                  name="name"
-                />
-              </div>
-              <div className="col-6 col-12-xsmall">
+            <p>
+              <label>
+                <input placeholder="Name*" type="text" name="name" />
+              </label>
+            </p>
+            <p>
+              <label>
                 <input
                   type="email"
                   className="form-control"
                   placeholder="Email*"
                   name="email"
                 />
-              </div>
-              <div className="col-6 col-12-xsmall">
+              </label>
+            </p>
+            <p>
+              <label>
                 <input
                   type="text"
                   className="form-control"
                   placeholder="Phone*"
                   name="phone"
                 />
-              </div>
-              <div className="col-6 col-12-xsmall">
+              </label>
+            </p>
+            <p>
+              <label>
                 <input
                   type="text"
                   className="form-control"
@@ -48,24 +49,22 @@ const IndexPage = () => (
                   placeholder="Subject"
                   name="subject"
                 />
-              </div>
-              <div className="col-12">
+              </label>
+            </p>
+            <p>
+              <label>
                 <textarea
                   className="mt-3"
                   placeholder="Message"
                   name="message"
-                />
-              </div>
-              <div className="col-12">
-                <ul className="actions">
-                  <li>
-                    <button type="submit" class="primary">
-                      Send
-                    </button>
-                  </li>
-                </ul>
-              </div>
-            </div>
+                ></textarea>
+              </label>
+            </p>
+            <p>
+              <button type="submit" class="primary">
+                Send
+              </button>
+            </p>
           </form>
         </div>
       </section>
