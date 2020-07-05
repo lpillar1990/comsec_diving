@@ -14,12 +14,7 @@ const IndexPage = () => (
       </header>
       <section className="wrapper style5">
         <div className="inner">
-          <form
-            className="form"
-            name="contact"
-            method="post"
-            data-netlify="true"
-          >
+          <form className="form" name="contact" method="post" action="" netlify>
             <div className="row gtr-uniform">
               <div className="col-6 col-12-xsmall">
                 <input
