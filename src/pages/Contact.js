@@ -24,59 +24,50 @@ const IndexPage = () => (
               <div className="col-6 col-12-xsmall">
                 <input
                   type="text"
-                  name="name"
-                  defaultValue=""
+                  className="form-control"
                   placeholder="Name*"
+                  name="name"
                 />
               </div>
               <div className="col-6 col-12-xsmall">
                 <input
                   type="email"
-                  name="email"
-                  defaultValue=""
+                  className="form-control"
                   placeholder="Email*"
+                  name="email"
                 />
               </div>
               <div className="col-6 col-12-xsmall">
                 <input
                   type="text"
+                  className="form-control"
+                  placeholder="Phone*"
                   name="phone"
-                  defaultValue=""
-                  placeholder="Phone"
                 />
               </div>
               <div className="col-6 col-12-xsmall">
                 <input
                   type="text"
-                  name="subject"
+                  className="form-control"
                   defaultValue=""
                   placeholder="Subject"
+                  name="subject"
                 />
               </div>
               <div className="col-12">
                 <textarea
-                  name="demo-message"
-                  placeholder="Enter your message"
-                  rows="6"
-                ></textarea>
+                  className="mt-3"
+                  placeholder="Message"
+                  name="message"
+                />
               </div>
               <div className="col-12">
                 <ul className="actions">
                   <li>
-                    <input
-                      name="submit"
-                      type="submit"
-                      value="Send"
-                      className="primary"
-                    />
+                    <input name="submit" type="submit" className="primary" />
                   </li>
                   <li>
-                    <input
-                      className="primary"
-                      name="reset"
-                      type="reset"
-                      value="Reset"
-                    />
+                    <input name="reset" type="reset" className="primary" />
                   </li>
                 </ul>
               </div>
