@@ -14,7 +14,7 @@ const IndexPage = () => (
       </header>
       <section className="wrapper style5">
         <div className="inner">
-          <form className="form" name="contact" method="post" action="" netlify>
+          <form name="contact" method="POST" data-netlify="true">
             <div className="row gtr-uniform">
               <div className="col-6 col-12-xsmall">
                 <input
@@ -59,10 +59,9 @@ const IndexPage = () => (
               <div className="col-12">
                 <ul className="actions">
                   <li>
-                    <input name="submit" type="submit" className="primary" />
-                  </li>
-                  <li>
-                    <input name="reset" type="reset" className="primary" />
+                    <button type="submit" class="primary">
+                      Send
+                    </button>
                   </li>
                 </ul>
               </div>
