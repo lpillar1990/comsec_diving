@@ -14,7 +14,13 @@ const IndexPage = () => (
       </header>
       <section className="wrapper style5">
         <div className="inner">
-          <form name="contact" method="POST" data-netlify="true">
+          <form
+            name="contact"
+            method="post"
+            data-netlify="true"
+            data-netify-honeypot="bot-field"
+          >
+            <input type="hidden" name="form-name" value="contact" />
             <p>
               <label>
                 <input placeholder="Name*" type="text" name="name" />
